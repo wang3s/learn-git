@@ -1,4 +1,4 @@
---埃拉托色尼筛选法 统计n以内的质数的个数(包括n在内)
+--埃拉托色尼筛选法统计n以内的质数的个数(包括n在内)
 function prime_count( n )
 	if n < 2 then 
 		return 0

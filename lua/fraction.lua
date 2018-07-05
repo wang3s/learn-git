@@ -72,7 +72,6 @@ function Fraction:printFraction ()
 	print(math.floor(self.numerator).."/"..math.floor(self.denominator))
 	--用math.floor()使输出不带小数，如：5.0输出为5
 end
-
 --=====================================================================================
 
 --创建分数对象
