@@ -1,4 +1,4 @@
---埃拉托色尼筛选法统计n以内的质数的个数(包括n在内)
+--鍩冩媺鎵樿壊灏肩瓫閫夋硶缁熻n浠ュ唴鐨勮川鏁扮殑涓暟(鍖呮嫭n鍦ㄥ唴)
 function prime_count( n )
 	if n < 2 then 
 		return 0
@@ -8,9 +8,8 @@ function prime_count( n )
 	not_exist = false
 	arr = { }
 	i = n
-	while i > 0  do
-		table.insert(arr, 1, exist)
-		i = i-1
+	for i=1,n do
+		arr[i]=exist
 	end
 	arr[1] = not_exist
 
